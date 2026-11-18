@@ -19,10 +19,10 @@
         <div class="row g-3">
             <div class="col-md-6">
                 <div class="card text-center shadow-sm">
-                    <div class="card-body">
-                        <h2 class="h6 text-success">Cadastrar</h2>
-                        <button class="btn btn-success w-100" type="button" disabled>Ir para Cadastro</button>
-                    </div>
+                  <a href="index.php?acao=cadastrar"
+                    class="btn btn-success">
+                     Cadastrar
+                 </a>
                 </div>
             </div>
             <div class="col-md-6">

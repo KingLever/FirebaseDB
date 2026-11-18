@@ -13,6 +13,11 @@ if ($acao === 'login' && $_SERVER['REQUEST_METHOD'] === 'POST') {
     header('Location: index.php');
     exit;
 
+} elseif ($acao === 'cadastrar'
+        && $_SERVER['REQUEST_METHOD'] === 'GET') {
+    require 'view/cadastrar.php';
+
+
 } else {
     $erro = '';
     require 'view/login.php';
